@@ -1,0 +1,22 @@
+.sidenavbar_layout{
+    font-size: medium;
+}
+
+li{
+    padding: 5px;
+}
+@media screen and (max-width: 900px) {
+
+        .sidenavbar_list .MuiListItem-root .MuiListItemIcon-root {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      
+        .sidenavbar_list .MuiListItem-root .MuiListItemText-root {
+          display: block;
+          text-align: center;
+        }
+      }
+      
+    

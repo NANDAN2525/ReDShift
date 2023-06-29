@@ -1,0 +1,28 @@
+.Topnavbar_layout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.Topnavbar_img_layout img{
+    width: 100px;
+    height: fit-content;
+}
+
+.Topnavbar_logbuttons_layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Topnavbar_logbuttons_layout h2{  margin-right: 10px;}
+@media screen and (max-width: 600px) {
+    .Topnavbar_layout{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+    

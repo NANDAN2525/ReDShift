@@ -1,0 +1,42 @@
+.compcontent_layout{
+    height: 100%;
+    width: 100%;
+}
+.compcontent_title{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(3, 3, 62);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.compcontent_buttons {
+align-items: center;
+display: flex ;
+justify-content: space-between;
+}
+
+.compcontent_table {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.compcontent_buttons Button {
+  margin: 10px;
+  justify-content: flex-end;
+    }
+
+
+.buttonscontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonscontainer  p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
